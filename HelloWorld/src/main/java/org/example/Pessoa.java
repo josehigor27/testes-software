@@ -23,4 +23,8 @@ public class Pessoa {
     public LocalDate getNascimento() {
         return nascimento;
     }
+
+    public boolean ehMaiorDeIdade(){
+        return getIdade() >= 18;
+    }
 }
